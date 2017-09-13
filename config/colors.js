@@ -1,3 +1,4 @@
+//App's background color
 export default {
-    background: '#FFFFF'
+    background: '#ededed',
 };

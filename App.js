@@ -1,13 +1,10 @@
 import React from 'react';
 import { StyleSheet, Text, View ,FlatList ,Platform } from 'react-native';
-import Contacts from './screens/Contacts';
-
+import {ContactScreen} from './config/router';
 export default class App extends React.Component {
   render() {
     return (
-      <View style={styles.container}>
-        <Text>a</Text>
-      </View>
+      <ContactScreen />
     );
   }
 }
